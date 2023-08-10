@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fatiappsstudio.rulesofjanazarnamaj">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- add koreci -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_finaldev"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+
+
+        <activity
+            android:exported="true"
+            android:name="com.fatiappsstudio.rulesofjanazarnamaj.SplashActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/SplashTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fatiappsstudio.rulesofjanazarnamaj.SampleAppActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.fatiappsstudio.rulesofjanazarnamaj.SplashActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.fatiappsstudio.rulesofjanazarnamaj.AboutAppActivity"
+            android:label="@string/about_this_app"
+            android:parentActivityName="com.fatiappsstudio.rulesofjanazarnamaj.SampleAppActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.fatiappsstudio.rulesofjanazarnamaj.PersonPagerActivity"
+            android:label="@string/details"
+            android:parentActivityName="com.fatiappsstudio.rulesofjanazarnamaj.SampleAppActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+
+</manifest>

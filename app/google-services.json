@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883744973273",
+    "firebase_url": "https://fati-apps-studio.firebaseio.com",
+    "project_id": "fati-apps-studio",
+    "storage_bucket": "fati-apps-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883744973273:android:9ce6efda8bf2a8a7",
+        "android_client_info": {
+          "package_name": "com.fatiappsstudio.rulesofjanazarnamaj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883744973273-mhu60gn1j5tisbg2gmbkv0d2fa03sbpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatiappsstudio.rulesofjanazarnamaj",
+            "certificate_hash": "cfbc8512e3ee1b340d7a3f2c6bd62df73de9e741"
+          }
+        },
+        {
+          "client_id": "883744973273-ullfc2m6q8ag3n5q505d24hapm285e3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVNmT845EzywcJIIAooJ192w88z6aU5ss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883744973273-ullfc2m6q8ag3n5q505d24hapm285e3e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
